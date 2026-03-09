@@ -6,7 +6,7 @@
 ---
 ## Project Demo Video
 
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/yGl3f0xTl_0?si=RQigCQ8wJe8sX8c5)
+[Watch the Library Management System Demo](https://youtu.be/yGl3f0xTl_0?si=RQigCQ8wJe8sX8c5)
 # 📖 Project Overview
 
 The **Library Management System** is a web-based application designed to manage books, users, and borrowing operations efficiently.  
