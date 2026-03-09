@@ -1,0 +1,206 @@
+/* ============================
+   🌐 GLOBAL STYLES
+============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(270deg, #4b6cb7, #182848, #ff9966, #ff5e62);
+  background-size: 800% 800%;
+  animation: gradientMove 15s ease infinite;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Animated Gradient */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ============================
+   🌟 HEADER & NAVIGATION
+============================ */
+header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+header h1, header h2 {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #ff9800;
+  color: #fff;
+  box-shadow: 0 0 20px #ff9800;
+  transform: scale(1.05);
+}
+
+/* ============================
+   📑 MAIN CONTENT SECTIONS
+============================ */
+.main {
+  text-align: center;
+  margin: 80px auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================
+   🧾 FORMS (Login, Signup, Add Book)
+============================ */
+form {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  width: 350px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  border-radius: 15px;
+  color: #fff;
+}
+
+form h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+button {
+  background: #ff9800;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff6f00;
+  box-shadow: 0 0 20px #ff9800;
+}
+
+/* ============================
+   📚 TABLE STYLES (books.php)
+============================ */
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  border-radius: 15px;
+  overflow: hidden;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a.view {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.view:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   🌍 GOOGLE TRANSLATE
+============================ */
+#google_translate_element {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.goog-te-banner-frame.skiptranslate,
+.goog-logo-link {
+  display: none !important;
+}
+body {
+  top: 0 !important;
+}
+
+/* ============================
+   ⚙️ FOOTER
+============================ */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ccc;
+  font-size: 0.9rem;
+  backdrop-filter: blur(5px);
+}
