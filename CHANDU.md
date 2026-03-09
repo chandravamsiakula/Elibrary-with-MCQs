@@ -4,10 +4,6 @@
 **Commander Chandu**
 
 ---
-## Project Demo Video
-## Project Demo
-
-[![YouTube](https://img.icons8.com/color/48/youtube-play.png)](https://youtu.be/yGl3f0xTl_0?si=RQigCQ8wJe8sX8c5)
 
 # 📖 Project Overview
 
