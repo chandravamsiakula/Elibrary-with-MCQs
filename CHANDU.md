@@ -1,7 +1,6 @@
 # 📚 Library Management System – Project Documentation
 
-## 👨‍💻 Author
-**Commander Chandu**
+** Chandra Vamsi Akula**
 
 ---
 
@@ -206,4 +205,4 @@ It demonstrates practical knowledge of **web development, database design, and v
 
 ---
 
-**Commander Chandu**
+**Chandra Vamsi Akula**
